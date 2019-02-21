@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #16161d !important;
+    font-family: 'Lato', sans-serif;
+    /* background-color:#1b1b1b !important; */
+}
+
+
+/* Navbar CSS */
+
+.navbar{
+    padding:0px !important;
+}
+
+/* Brand Color */
+a.navbar-brand{
+    color:white !important;
+    margin-left:10px;
+}
+
+/* Links Color and positioning */
+a.nav-link{
+    color: white !important;
+    font-size: 17px;
+    margin-left: 20px;
+    padding:15px;
+}
+
+button.btn.btn-success{
+    margin-top:7px; 
+    margin-left:20px;
+}
+
+a.nav-link:hover{
+    color:white !important;
+    border-bottom: 4px solid #00B4CC;
+    transition: all 0.2s ease;
+}
+.nav-item.active a.nav-link{
+    /* background-color:#00B4CC; */
+    border-bottom: 4px solid #00B4CC;
+
+}
+
+.imagem-banner{
+    background-image: url('../images/wallpaper4.jpg');
+    background-size: cover;
+    background-position: inherit;
+    height: 700px;
+    float: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-dark{
+    background-color:#16161d !important;
+}
+
+.adzone{
+    margin-top: 40px;
+    margin-bottom:40px;
+    background-color:#1b1b1b;
+    min-height: 90px;
+    border: 1px #16161d solid;
+    border-radius:5px;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    height: 40px;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text{
+    color:white;
+}
+
+.pagination{
+    float:right;
+}

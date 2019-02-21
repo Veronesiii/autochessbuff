@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #16161d !important;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Navbar CSS */
+nav{
+    background-color: #16161d !important;
+}
+.navbar{
+    padding:0px !important;
+}
+
+/* Brand Color */
+a.navbar-brand{
+    color:white !important;
+    margin-left:10px;
+}
+
+/* Links Color and positioning */
+a.nav-link{
+    color: white !important;
+    font-size: 17px;
+    margin-left: 20px;
+    padding:15px;
+}
+
+button.btn.btn-success{
+    margin-top:7px; 
+    margin-left:20px;
+}
+
+a.nav-link:hover{
+    color:white !important;
+    border-bottom: 4px solid #00B4CC;
+    transition: all 0.2s ease;
+}
+.nav-item.active a.nav-link{
+    /* background-color:#00B4CC; */
+    border-bottom: 4px solid #00B4CC;
+
+}
+
+.imagem-banner{
+    background-image: url('../images/wallpaper4.jpg');
+    background-size: cover;
+    background-position: inherit;
+    height: 450px;
+    float: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row_form{
+    display: flex;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+}
+
+input#steamidInput{
+    border: 1px solid #333;
+    padding: 5px;
+    height: 50px;
+    border-radius:5px;
+    outline: none;
+    display: inline;
+    width: 40%;
+    opacity: 10%;
+    background-color:rgba(255, 255, 255, 0.57);
+    -webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+
+}
+
+.goButton{
+    border: 1px solid #142532;
+    background: #16161d;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    padding: 12px;  
+    -webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+
+.updates.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-12.caixa{
+    background-color: #333;
+    text-align: center;
+    height: 214px;
+}
+
+.player{
+    margin-bottom:5px !important;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.top3{
+    text-align: center;
+    color: white;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top3p{
+    background-color:#16161d !important;
+}
+
+.list-group-item{
+    padding: 0.75rem 0.25rem !important;
+}
+
+small{
+    margin-left:5px;
+}
+
+.card-title{
+    color:white;
+}
+.card{
+    background-color: #16161d!important;
+    border-radius:2% !important;
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+}
+.card .col-md-4{
+    display: flex;
+    align-items: center;
+}
+
+.card-img{
+    margin-top:10px !important;
+}
+
+.card.mb-3.col-lg-6{
+    padding:0 !important;
+}
+
+.card-img{
+    border-radius:50% !important;
+}
+
+.cartas{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+footer{
+    position: fixed;
+    height: 30px;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text{
+    color:white;
+}
+
+.col-md-6{
+    overflow: hidden
+}
